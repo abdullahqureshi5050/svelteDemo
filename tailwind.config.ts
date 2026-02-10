@@ -6,7 +6,12 @@ const config: Config = {
     extend: {
       colors: {
         primary: '#7C3AED', // purple
-        dark: '#0F0F0F',
+        dark: {
+          DEFAULT: '#0F0F0F',
+          100: '#1A1A1A',
+          200: '#333333',
+        },
+        ili: 'yellow',
         light: '#FFFFFF',
         muted: '#A1A1AA',
       },
