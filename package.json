@@ -16,6 +16,7 @@
 	"devDependencies": {
 		"@eslint/compat": "^2.0.1",
 		"@eslint/js": "^9.39.2",
+		"@locator/runtime": "^0.5.1",
 		"@sveltejs/adapter-auto": "^7.0.0",
 		"@sveltejs/kit": "^2.50.1",
 		"@sveltejs/vite-plugin-svelte": "^6.2.4",
@@ -39,6 +40,8 @@
 		"vite": "^7.3.1"
 	},
 	"dependencies": {
-		"jsonwebtoken": "^9.0.3"
+		"@reduxjs/toolkit": "^2.11.2",
+		"jsonwebtoken": "^9.0.3",
+		"redux": "^5.0.1"
 	}
 }
